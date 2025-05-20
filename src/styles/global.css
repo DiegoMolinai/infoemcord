@@ -1,25 +1,29 @@
 /* src/styles/global.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-@import './variables.css';
+/* Variables base */
+:root {
+  --font-primary: 'Inter', sans-serif;
 
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --color-bg: #0b0e11;
+  --color-bg-light: #1b1f24;
+
+  --color-primary: #5bbf62;
+  --color-accent: #5bbf62;
+
+  --color-text: #f0f0f0;
+  --color-text-secondary: #cccccc;
 }
 
-/* Viewport base */
+/* Viewport y fondo global */
 html, body, #root {
   width: 100%;
   height: 100%;
   min-height: 100%;
   overflow-x: hidden;
-  background-color: transparent; /* ✅ Deja ver el fondo animado */
+  background-color: transparent; /* ✅ deja ver el fondo animado */
 }
 
-/* Body */
+/* Tipografía y scroll */
 body {
   font-family: var(--font-primary);
   color: var(--color-text);
@@ -27,48 +31,40 @@ body {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-attachment: fixed; /* ✅ Para mobile Safari */
+  background-attachment: fixed; /* 🔥 para animación y Safari */
 }
 
-/* Main tag */
+/* Layout mínimo */
 main {
-  min-height: 100vh; /* Mantiene la estructura de cada página */
+  min-height: 100vh;
 }
 
-/* Links */
+/* Elementos generales */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Imágenes */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Inputs y botones */
 button, input, textarea {
   font-family: inherit;
   color: var(--color-text);
   background-color: transparent;
+  border: none;
 }
 
-/* Arreglar autofill de formularios */
+/* Autofill fix */
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px var(--color-bg) inset !important;
   -webkit-text-fill-color: var(--color-text) !important;
 }
 
-/* Animación de latido */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.08); }
-  100% { transform: scale(1); }
-}
-
-/* Animación suave del fondo */
+/* Fondo animado */
 @keyframes moveBackground {
   0% {
     background-position: 0% 50%, 100% 50%;

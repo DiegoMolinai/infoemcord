@@ -1,58 +1,26 @@
-// src/theme/theme.js
-
-import { createTheme } from '@mui/material/styles';
-
-// ✅ Definimos los colores aquí con sus valores HEX
-const COLORS = {
-  bg: '#0f0f0f',
-  text: '#ffffff',
-  accent: '#80dc7d',
-  secondary: '#404145',
-};
+import { createTheme } from "@mui/material/styles";
+import config from "../config/config";
 
 const theme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: "light",
+    primary: {
+      main: config.colors.primary,
+    },
+    secondary: {
+      main: config.colors.accent,
+    },
     background: {
-      default: COLORS.bg,
-      paper: '#1e1e1e',
+      default: config.colors.background,
+      paper: "#ffffff",
     },
     text: {
-      primary: COLORS.text,
-      secondary: '#aaaaaa',
-    },
-    primary: {
-      main: COLORS.accent,
-    },
-    success: {
-      main: COLORS.accent,
+      primary: config.colors.textPrimary,
+      secondary: config.colors.textSecondary,
     },
   },
   typography: {
-    fontFamily: `'Inter', sans-serif`,
-    h1: { fontWeight: 700 },
-    h2: { fontWeight: 700 },
-    h3: { fontWeight: 700 },
-    h4: { fontWeight: 700 },
-    h5: { fontWeight: 600 },
-    h6: { fontWeight: 600 },
-    button: { textTransform: 'none' },
-  },
-  components: {
-    MuiPaper: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#1e1e1e',
-        },
-      },
-    },
-    MuiButton: {
-      styleOverrides: {
-        root: {
-          fontWeight: 600,
-        },
-      },
-    },
+    fontFamily: "Roboto, Arial, sans-serif",
   },
 });
 

@@ -1,0 +1,280 @@
+{
+  "hash": "9825502d",
+  "configHash": "d056f7fa",
+  "lockfileHash": "1aaf4176",
+  "browserHash": "3d46fd71",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c1e4dbfd",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "658e693f",
+      "needsInterop": true
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/esm/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "fa743abe",
+      "needsInterop": false
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/esm/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "6cc6ecc7",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Menu": {
+      "src": "../../node_modules/@mui/icons-material/esm/Menu.js",
+      "file": "@mui_icons-material_Menu.js",
+      "fileHash": "7fee2569",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Home": {
+      "src": "../../node_modules/@mui/icons-material/esm/Home.js",
+      "file": "@mui_icons-material_Home.js",
+      "fileHash": "7a6876a6",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Build": {
+      "src": "../../node_modules/@mui/icons-material/esm/Build.js",
+      "file": "@mui_icons-material_Build.js",
+      "fileHash": "cdb97747",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Info": {
+      "src": "../../node_modules/@mui/icons-material/esm/Info.js",
+      "file": "@mui_icons-material_Info.js",
+      "fileHash": "7b53cdaa",
+      "needsInterop": false
+    },
+    "@mui/icons-material/ContactMail": {
+      "src": "../../node_modules/@mui/icons-material/esm/ContactMail.js",
+      "file": "@mui_icons-material_ContactMail.js",
+      "fileHash": "dd60303a",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "0b6eee17",
+      "needsInterop": false
+    },
+    "@mui/icons-material/GitHub": {
+      "src": "../../node_modules/@mui/icons-material/esm/GitHub.js",
+      "file": "@mui_icons-material_GitHub.js",
+      "fileHash": "4c830c90",
+      "needsInterop": false
+    },
+    "@mui/icons-material/LinkedIn": {
+      "src": "../../node_modules/@mui/icons-material/esm/LinkedIn.js",
+      "file": "@mui_icons-material_LinkedIn.js",
+      "fileHash": "51927dee",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Facebook": {
+      "src": "../../node_modules/@mui/icons-material/esm/Facebook.js",
+      "file": "@mui_icons-material_Facebook.js",
+      "fileHash": "cf960df5",
+      "needsInterop": false
+    },
+    "@mui/icons-material/LocationOn": {
+      "src": "../../node_modules/@mui/icons-material/esm/LocationOn.js",
+      "file": "@mui_icons-material_LocationOn.js",
+      "fileHash": "c6dc0a8f",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Phone": {
+      "src": "../../node_modules/@mui/icons-material/esm/Phone.js",
+      "file": "@mui_icons-material_Phone.js",
+      "fileHash": "53d987df",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Email": {
+      "src": "../../node_modules/@mui/icons-material/esm/Email.js",
+      "file": "@mui_icons-material_Email.js",
+      "fileHash": "1ea0c237",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Engineering": {
+      "src": "../../node_modules/@mui/icons-material/esm/Engineering.js",
+      "file": "@mui_icons-material_Engineering.js",
+      "fileHash": "3b45d2e6",
+      "needsInterop": false
+    },
+    "@mui/icons-material/DirectionsCar": {
+      "src": "../../node_modules/@mui/icons-material/esm/DirectionsCar.js",
+      "file": "@mui_icons-material_DirectionsCar.js",
+      "fileHash": "498a1fa1",
+      "needsInterop": false
+    },
+    "@mui/icons-material/OilBarrel": {
+      "src": "../../node_modules/@mui/icons-material/esm/OilBarrel.js",
+      "file": "@mui_icons-material_OilBarrel.js",
+      "fileHash": "015c1626",
+      "needsInterop": false
+    },
+    "@mui/icons-material/TireRepair": {
+      "src": "../../node_modules/@mui/icons-material/esm/TireRepair.js",
+      "file": "@mui_icons-material_TireRepair.js",
+      "fileHash": "7d78cfac",
+      "needsInterop": false
+    },
+    "@mui/icons-material/CarRepair": {
+      "src": "../../node_modules/@mui/icons-material/esm/CarRepair.js",
+      "file": "@mui_icons-material_CarRepair.js",
+      "fileHash": "a808f5ad",
+      "needsInterop": false
+    },
+    "@mui/icons-material/BuildCircle": {
+      "src": "../../node_modules/@mui/icons-material/esm/BuildCircle.js",
+      "file": "@mui_icons-material_BuildCircle.js",
+      "fileHash": "58cfb796",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Storefront": {
+      "src": "../../node_modules/@mui/icons-material/esm/Storefront.js",
+      "file": "@mui_icons-material_Storefront.js",
+      "fileHash": "9710b2db",
+      "needsInterop": false
+    },
+    "@mui/icons-material/LocalCarWash": {
+      "src": "../../node_modules/@mui/icons-material/esm/LocalCarWash.js",
+      "file": "@mui_icons-material_LocalCarWash.js",
+      "fileHash": "79c7aa7c",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Handshake": {
+      "src": "../../node_modules/@mui/icons-material/esm/Handshake.js",
+      "file": "@mui_icons-material_Handshake.js",
+      "fileHash": "e84a971c",
+      "needsInterop": false
+    },
+    "@mui/icons-material/WorkspacePremium": {
+      "src": "../../node_modules/@mui/icons-material/esm/WorkspacePremium.js",
+      "file": "@mui_icons-material_WorkspacePremium.js",
+      "fileHash": "ae3fe96c",
+      "needsInterop": false
+    },
+    "@mui/icons-material/EmojiPeople": {
+      "src": "../../node_modules/@mui/icons-material/esm/EmojiPeople.js",
+      "file": "@mui_icons-material_EmojiPeople.js",
+      "fileHash": "e05afc70",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Instagram": {
+      "src": "../../node_modules/@mui/icons-material/esm/Instagram.js",
+      "file": "@mui_icons-material_Instagram.js",
+      "fileHash": "b3692217",
+      "needsInterop": false
+    },
+    "@mui/icons-material/WhatsApp": {
+      "src": "../../node_modules/@mui/icons-material/esm/WhatsApp.js",
+      "file": "@mui_icons-material_WhatsApp.js",
+      "fileHash": "3be7c661",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Send": {
+      "src": "../../node_modules/@mui/icons-material/esm/Send.js",
+      "file": "@mui_icons-material_Send.js",
+      "fileHash": "50c07641",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Map": {
+      "src": "../../node_modules/@mui/icons-material/esm/Map.js",
+      "file": "@mui_icons-material_Map.js",
+      "fileHash": "8361d0a4",
+      "needsInterop": false
+    },
+    "@mui/material/useMediaQuery": {
+      "src": "../../node_modules/@mui/material/esm/useMediaQuery/index.js",
+      "file": "@mui_material_useMediaQuery.js",
+      "fileHash": "f6eb70b3",
+      "needsInterop": false
+    },
+    "prop-types": {
+      "src": "../../node_modules/prop-types/index.js",
+      "file": "prop-types.js",
+      "fileHash": "26e7bda9",
+      "needsInterop": true
+    },
+    "swiper/react": {
+      "src": "../../node_modules/swiper/swiper-react.mjs",
+      "file": "swiper_react.js",
+      "fileHash": "6f40afb4",
+      "needsInterop": false
+    },
+    "swiper/modules": {
+      "src": "../../node_modules/swiper/modules/index.mjs",
+      "file": "swiper_modules.js",
+      "fileHash": "dab75bc9",
+      "needsInterop": false
+    },
+    "@mui/icons-material/BrokenImage": {
+      "src": "../../node_modules/@mui/icons-material/esm/BrokenImage.js",
+      "file": "@mui_icons-material_BrokenImage.js",
+      "fileHash": "5bc5f9b1",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Place": {
+      "src": "../../node_modules/@mui/icons-material/esm/Place.js",
+      "file": "@mui_icons-material_Place.js",
+      "fileHash": "162cb875",
+      "needsInterop": false
+    },
+    "@mui/icons-material/AccessTime": {
+      "src": "../../node_modules/@mui/icons-material/esm/AccessTime.js",
+      "file": "@mui_icons-material_AccessTime.js",
+      "fileHash": "f6b5b89f",
+      "needsInterop": false
+    },
+    "@mui/icons-material/Directions": {
+      "src": "../../node_modules/@mui/icons-material/esm/Directions.js",
+      "file": "@mui_icons-material_Directions.js",
+      "fileHash": "a725cb03",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-XLOWEJT4": {
+      "file": "chunk-XLOWEJT4.js"
+    },
+    "chunk-WTDUWEDX": {
+      "file": "chunk-WTDUWEDX.js"
+    },
+    "chunk-MWUQT4FA": {
+      "file": "chunk-MWUQT4FA.js"
+    },
+    "chunk-R3U6XKKV": {
+      "file": "chunk-R3U6XKKV.js"
+    },
+    "chunk-C6WWHQR7": {
+      "file": "chunk-C6WWHQR7.js"
+    },
+    "chunk-CC7ZGJQE": {
+      "file": "chunk-CC7ZGJQE.js"
+    },
+    "chunk-4LVDQJXH": {
+      "file": "chunk-4LVDQJXH.js"
+    },
+    "chunk-RJGF6ZJJ": {
+      "file": "chunk-RJGF6ZJJ.js"
+    },
+    "chunk-PHFSEZYT": {
+      "file": "chunk-PHFSEZYT.js"
+    },
+    "chunk-7H6SUTDI": {
+      "file": "chunk-7H6SUTDI.js"
+    },
+    "chunk-4X6FFAZQ": {
+      "file": "chunk-4X6FFAZQ.js"
+    },
+    "chunk-EWTE5DHJ": {
+      "file": "chunk-EWTE5DHJ.js"
+    }
+  }
+}
